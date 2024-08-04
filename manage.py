@@ -32,3 +32,12 @@ if __name__ == '__main__':
 # python manage.py makemigrations
 # python manage.py migrate
 # python manage.py createsuperuser
+
+
+# https://pages.github.com/
+
+# https://www.aparat.com/v/ykuIN
+
+# http://shop-center.whi.ir/
+
+# https://hostiran.net/profile/panel/service/152088/detail?state=info
