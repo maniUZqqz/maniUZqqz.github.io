@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+}
+.main-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1200px;
+}
+.header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    /*text-align: center;*/
+    margin-bottom: 100px; /* Increased margin-bottom */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 80px;
+}
+.header p {
+    display: inline-block;
+    /*margin-left: 100px;*/
+    margin-top: -8px;
+}
+.form-container {
+    display: flex;
+    justify-content: space-between;
+}
+.left-section {
+    flex: 2;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-right: 100px; /* Increased margin-right */
+}
+.right-section {
+    flex: 1;
+    background-color: #007bff;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 100%; /* Match height */
+}
+.right-section img {
+    max-width: 100%;
+    border-radius: 70%;
+}
+.links {
+    margin-top: 20px;
+    width: 100%;
+}
+.links a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #0056b3;
+    text-align: center;
+    border-radius: 5px;
+}
+.links a:hover {
+    background-color: #004494;
+}
+.container {
+    margin-top: 20px;
+}
+.container h2 {
+    margin-bottom: 20px;
+    color: #007bff;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #0056b3;
+}
+.error {
+    color: red;
+    margin-top: 10px;
+    display: none;
+}

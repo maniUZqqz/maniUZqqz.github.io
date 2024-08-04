@@ -1,0 +1,18 @@
+<div class="col-sm-3">
+    <div class="product-image-wrapper">
+        <div class="single-products">
+            <div class="productinfo text-center">
+                {% if product.image %}
+                    <img src="{{ product.image.url }}" alt="تصویر">
+                {% else %}
+                    <img src="/static/images/home/Gallery.jpg" alt=""/>
+                {% endif %}
+
+                <h2 style="color:#1c269b;" >{{ product.price }} تومان</h2>
+                <p style="color:#2c89b6;" >{{ product.title }}</p>
+                <a style="color:#ffffff;" href="{{ product.get_absolute_url }}" class="btn btn-default add-to-cart"><i
+                        class="fa fa-shopping-cart"></i>مشاهده جزیات</a>
+            </div>
+        </div>
+    </div>
+</div>
