@@ -34,6 +34,9 @@ if __name__ == '__main__':
 # python manage.py createsuperuser
 
 
+# python manage.py startapp Course
+
+
 # https://pages.github.com/
 
 # https://www.aparat.com/v/ykuIN
